@@ -1,0 +1,18 @@
+.Photo {
+  background-image: url(../../../assets/images/tim-kelly-b&w.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vmin;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16vmin auto;
+}
+
+@media screen and (max-width: 767px) {
+  .photo {
+    background-image: url(../../../assets/images/tim-kelly-b&w-mobile.png);
+    background-position: center center;
+    height: 140vmin;
+  }
+}

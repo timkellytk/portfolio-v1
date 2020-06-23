@@ -1,19 +1,22 @@
 import React from 'react';
 import resume from './assets/pdfs/resume.pdf';
+import Container from './components/Utility/Container/Container';
+import Hero from './components/Hero/Hero';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Hero />
       <div className="maxwidth">
-        <div className="logo animate">Tim Kelly</div>
+        <div className="logo animate">TIM KELLY</div>
         <h1 className="animate delaytitle">
           Hello, my name is Tim. I am a front-end web developer in Sydney,
           Australia
         </h1>
       </div>
       <div className="photo animate delaycontent"></div>
-      <div className="maxwidth content animate delaycontent">
+      <div className="maxwidth animate delaycontent">
         <p>
           I create beautiful, responsive websites using HTML, CSS, JavaScript
           and React. After completing a Bachelor's Marketing and Media at
@@ -70,6 +73,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Container static>This is a test</Container>
     </div>
   );
 }
