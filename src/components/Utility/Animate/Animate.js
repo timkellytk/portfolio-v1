@@ -2,14 +2,14 @@ import React from 'react';
 import './Animate.css';
 
 const Animate = (props) => {
-  let animate = <div className="Animate">{props.children}</div>;
+  let animate = <div className="animate">{props.children}</div>;
 
   if (props.delayContent) {
-    animate = <div className="Animate DelayContent">{props.children}</div>;
+    animate = <div className="animate delaycontent">{props.children}</div>;
   }
 
   if (props.delayTitle) {
-    animate = <div className="Animate DelayTitle">{props.children}</div>;
+    animate = <div className="animate delaytitle">{props.children}</div>;
   }
 
   return animate;

@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .photo {
+  .Photo {
     background-image: url(../../../assets/images/tim-kelly-b&w-mobile.png);
     background-position: center center;
     height: 140vmin;

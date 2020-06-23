@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Container from '../Utility/Container/Container';
 import Logo from './Logo/Logo';
 import Animate from '../Utility/Animate/Animate';
