@@ -7,7 +7,7 @@ const ContactItem = (props) => {
   if (props.link) {
     contact = (
       <div className={style.ContactItem}>
-        <a href={props.link} target="blank">
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
           {props.children}
         </a>
       </div>

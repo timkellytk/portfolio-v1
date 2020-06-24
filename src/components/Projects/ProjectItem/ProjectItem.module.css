@@ -1,0 +1,20 @@
+.Photo {
+  display: block;
+  width: 21vw;
+  height: 12vw;
+  max-width: none;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .Photo {
+    display: block;
+    width: 35vw;
+    height: 20vw;
+  }
+}

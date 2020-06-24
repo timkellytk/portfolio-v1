@@ -7,7 +7,11 @@ const AboutContent = () => {
         I create beautiful, responsive websites using HTML, CSS, JavaScript and
         React. After completing a Bachelor's Marketing and Media at Macquarie
         University, I spent 3-years learning how to code, built and sold,{' '}
-        <a href="https://www.evolutionarytutors.com.au/" target="blank">
+        <a
+          href="https://www.evolutionarytutors.com.au/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Evolutionary Tutors
         </a>{' '}
         and worked as an SEO executive in London.
@@ -16,12 +20,17 @@ const AboutContent = () => {
         Currently, I'm completing the{' '}
         <a
           href="https://www.theodinproject.com/tracks/full-stack-javascript"
-          target="blank"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Full Stack JavaScript Bootcamp
         </a>{' '}
         at The Odin Project and working as a freelance developer for{' '}
-        <a href="https://www.therambler.co/" target="blank">
+        <a
+          href="https://www.therambler.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           The Rambler Co
         </a>
         .
