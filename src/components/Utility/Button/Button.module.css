@@ -3,16 +3,21 @@
   height: 10px;
   margin-left: 16px;
   margin-right: -3px;
-  margin-bottom: 3px;
+  margin-bottom: 14px;
   transition-property: transform;
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
+  display: inline-block;
 }
 .ArrowText {
-  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 160%;
+  display: inline-block;
 }
 .Button {
   text-decoration: none;
+  display: inline-block;
 }
 .Button:hover .ArrowIcon {
   transform: translate(8px, 0px);
