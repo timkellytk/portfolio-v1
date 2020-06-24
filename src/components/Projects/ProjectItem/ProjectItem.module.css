@@ -9,6 +9,13 @@
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.Photo:hover {
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 767px) {
