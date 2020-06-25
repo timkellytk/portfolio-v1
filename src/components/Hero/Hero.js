@@ -8,7 +8,6 @@ const Hero = () => {
   return (
     <React.Fragment>
       <ContentContainer>
-        <Logo />
         <Animate delayTitle>
           <h1>
             Hello, my name is Tim. I am a front-end web developer in Sydney,

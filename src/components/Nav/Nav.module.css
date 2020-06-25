@@ -1,0 +1,43 @@
+.Nav {
+  position: fixed;
+  margin: 0 10vmin;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  bottom: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  line-height: 80%;
+}
+
+.NavPadding {
+  margin: 26vmin 0 0 0;
+}
+
+.White {
+  color: white;
+}
+
+.NavMenu {
+  display: flex;
+}
+
+.NavLink {
+  color: white;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .Nav {
+    margin: 0;
+  }
+  .NavPadding {
+    margin: 35vmin 0 0 0;
+  }
+}
