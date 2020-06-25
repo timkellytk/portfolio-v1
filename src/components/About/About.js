@@ -1,16 +1,19 @@
 import React from 'react';
-import Container from '../Utility/Container/Container';
+import Animate from '../Utility/Animate/Animate';
+import ContentContainer from '../Utility/ContentContainer/ContentContainer';
 import AboutContent from './AboutContent/AboutContent';
 import Resume from './Resume/Resume';
 import AboutContact from './AboutContact/AboutContact';
 
 const About = () => {
   return (
-    <Container delayContent>
-      <AboutContent />
-      <Resume />
-      <AboutContact />
-    </Container>
+    <Animate delayContent>
+      <ContentContainer>
+        <AboutContent />
+        <Resume />
+        <AboutContact />
+      </ContentContainer>
+    </Animate>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../Utility/Container/Container';
+import ContentContainer from '../Utility/ContentContainer/ContentContainer';
 import Logo from './Logo/Logo';
 import Animate from '../Utility/Animate/Animate';
 import HeroImage from './HeroImage/HeroImage';
@@ -7,7 +7,7 @@ import HeroImage from './HeroImage/HeroImage';
 const Hero = () => {
   return (
     <React.Fragment>
-      <Container static>
+      <ContentContainer>
         <Logo />
         <Animate delayTitle>
           <h1>
@@ -15,8 +15,10 @@ const Hero = () => {
             Australia
           </h1>
         </Animate>
-      </Container>
-      <HeroImage />
+      </ContentContainer>
+      <Animate delayContent>
+        <HeroImage />
+      </Animate>
     </React.Fragment>
   );
 };

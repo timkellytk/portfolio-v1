@@ -1,0 +1,10 @@
+.Section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 16vmin auto;
+  overflow: hidden;
+}
+.Container {
+  margin-left: 5%;
+  margin-right: 5%;
+}

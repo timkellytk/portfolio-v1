@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem/ProjectItem';
 import Animate from '../Utility/Animate/Animate';
+import Section from '../Utility/Section/Section';
 import Button from '../Utility/Button/Button';
 import burgerBuilder from '../../assets/images/projects/burger-builder.png';
 import calculator from '../../assets/images/projects/calculator.png';
@@ -15,13 +16,11 @@ import style from './Projects.module.css';
 const Projects = () => {
   return (
     <Animate delayContent>
-      <div className={style.Section}>
-        <div className={style.Container}>
-          <h2>Review some of my projects from The Odin Project Bootcamp</h2>
-          <Button link="https://github.com/timkellytk">
-            View all projects on GitHub
-          </Button>
-        </div>
+      <Section colour="#eee">
+        <h2>Review some of my projects from The Odin Project Bootcamp</h2>
+        <Button link="https://github.com/timkellytk">
+          View all projects on GitHub
+        </Button>
         <div className={style.PhotoSection}>
           <div className={style.PhotoContainer}>
             <ProjectItem
@@ -70,7 +69,7 @@ const Projects = () => {
             />
           </div>
         </div>
-      </div>
+      </Section>
     </Animate>
   );
 };
