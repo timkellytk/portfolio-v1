@@ -1,6 +1,5 @@
 import React from 'react';
 import ContentContainer from '../Utility/ContentContainer/ContentContainer';
-import Logo from './Logo/Logo';
 import Animate from '../Utility/Animate/Animate';
 import HeroImage from './HeroImage/HeroImage';
 

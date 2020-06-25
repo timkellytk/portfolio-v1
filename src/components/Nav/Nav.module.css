@@ -13,31 +13,29 @@
   background-color: black;
   color: white;
   font-weight: 700;
+  font-size: 0.8em;
   line-height: 80%;
+  z-index: 1;
 }
 
 .NavPadding {
   margin: 26vmin 0 0 0;
 }
 
-.White {
+.Logo {
   color: white;
-}
-
-.NavMenu {
-  display: flex;
-}
-
-.NavLink {
-  color: white;
-  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 767px) {
   .Nav {
     margin: 0;
   }
-  .NavPadding {
-    margin: 35vmin 0 0 0;
+  .Logo {
+    color: white;
+  }
+  .DesktopOnly {
+    display: none;
   }
 }

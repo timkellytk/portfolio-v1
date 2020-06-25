@@ -1,0 +1,10 @@
+.Menu {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .Menu {
+    display: block;
+  }
+}

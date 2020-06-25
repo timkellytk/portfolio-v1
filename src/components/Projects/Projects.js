@@ -3,14 +3,14 @@ import ProjectItem from './ProjectItem/ProjectItem';
 import Animate from '../Utility/Animate/Animate';
 import Section from '../Utility/Section/Section';
 import Button from '../Utility/Button/Button';
-import burgerBuilder from '../../assets/images/projects/burger-builder.png';
-import calculator from '../../assets/images/projects/calculator.png';
-import google from '../../assets/images/projects/google.png';
-import library from '../../assets/images/projects/library.png';
-import restaurant from '../../assets/images/projects/restaurant.png';
-import ticTacToe from '../../assets/images/projects/tic-tac-toe.png';
-import toDoList from '../../assets/images/projects/to-do-list.png';
-import rockPaperScissors from '../../assets/images/projects/rock-paper-scissors.png';
+import burgerBuilder from '../../assets/images/projects/the-odin-project/burger-builder.png';
+import calculator from '../../assets/images/projects/the-odin-project/calculator.png';
+import google from '../../assets/images/projects/the-odin-project/google.png';
+import library from '../../assets/images/projects/the-odin-project/library.png';
+import restaurant from '../../assets/images/projects/the-odin-project/restaurant.png';
+import ticTacToe from '../../assets/images/projects/the-odin-project/tic-tac-toe.png';
+import toDoList from '../../assets/images/projects/the-odin-project/to-do-list.png';
+import rockPaperScissors from '../../assets/images/projects/the-odin-project/rock-paper-scissors.png';
 import style from './Projects.module.css';
 
 const Projects = () => {
