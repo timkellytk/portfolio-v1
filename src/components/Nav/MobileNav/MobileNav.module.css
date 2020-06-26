@@ -20,11 +20,59 @@
   z-index: 1;
 }
 
-.Close {
+@media (min-width: 767px) {
+  .MobileNav {
+    display: none;
+  }
+}
+
+.CloseBtn {
   position: absolute;
   cursor: pointer;
   left: auto;
   top: 3vh;
   right: 3vh;
   bottom: auto;
+}
+
+.Open {
+  animation-name: open;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+}
+
+.Closed {
+  transform: translate(100%);
+  animation-name: close;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+}
+
+.Load {
+  display: none;
+}
+
+@keyframes open {
+  from {
+    transform: translate(15%, -15%);
+    opacity: 0%;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 100%;
+  }
+}
+
+@keyframes close {
+  from {
+    transform: translate(0, 0);
+    opacity: 100%;
+  }
+  99% {
+    transform: translate(15%, -15%);
+    opacity: 0%;
+  }
+  to {
+    display: none;
+  }
 }

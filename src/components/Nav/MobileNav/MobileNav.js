@@ -4,20 +4,22 @@ import close from '../../../assets/images/utility/exit.svg';
 import style from './MobileNav.module.css';
 
 const MobileNav = (props) => {
-  let nav = null;
+  let attachedClasses = [style.Load];
 
   if (props.show) {
-    nav = (
-      <div className={style.MobileNav}>
-        <NavItems />
-        <div className={style.Close} onClick={props.close}>
-          <img src={close} alt="Close Menu" height="20px" />
-        </div>
-      </div>
-    );
+    attachedClasses = [style.MobileNav, style.Open];
+  } else if (props.show === false) {
+    attachedClasses = [style.MobileNav, style.Closed];
   }
 
-  return nav;
+  return (
+    <div className={attachedClasses.join(' ')}>
+      <NavItems />
+      <div className={style.CloseBtn} onClick={props.close}>
+        <img src={close} alt="Close Menu" height="20px" />
+      </div>
+    </div>
+  );
 };
 
 export default MobileNav;

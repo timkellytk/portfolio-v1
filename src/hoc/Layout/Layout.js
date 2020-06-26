@@ -4,7 +4,7 @@ import MobileNav from '../../components/Nav/MobileNav/MobileNav';
 
 class Layout extends Component {
   state = {
-    mobileNav: false,
+    mobileNav: null,
   };
 
   openMobileNav = () => {
