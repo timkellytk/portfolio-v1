@@ -1,5 +1,5 @@
 import React from 'react';
-import hamburger from '../../../../assets/images/utility/menu.svg';
+import hamburger from '../../../../../assets/images/utility/menu.svg';
 import style from './HamburgerMenu.module.css';
 
 const HamburgerMenu = (props) => {

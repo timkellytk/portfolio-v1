@@ -1,6 +1,6 @@
 import React from 'react';
-import ContentContainer from '../Utility/ContentContainer/ContentContainer';
-import Animate from '../Utility/Animate/Animate';
+import ContentContainer from '../../Utility/ContentContainer/ContentContainer';
+import Animate from '../../Utility/Animate/Animate';
 import HeroImage from './HeroImage/HeroImage';
 
 const Hero = () => {

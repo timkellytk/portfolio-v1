@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Nav from '../../components/Nav/Nav';
-import MobileNav from '../../components/Nav/MobileNav/MobileNav';
+import Nav from '../../components/Utility/Nav/Nav';
+import MobileNav from '../../components/Utility/Nav/MobileNav/MobileNav';
 
 class Layout extends Component {
   state = {

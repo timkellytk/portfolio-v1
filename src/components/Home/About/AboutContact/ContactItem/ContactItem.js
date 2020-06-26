@@ -2,15 +2,15 @@ import React from 'react';
 import style from './ContactItem.module.css';
 
 const ContactItem = (props) => {
-  let contact = <div className={style.ContactItem}>{props.children}</div>;
+  let contact = <p className={style.ContactItem}>{props.children}</p>;
 
   if (props.link) {
     contact = (
-      <div className={style.ContactItem}>
+      <p className={style.ContactItem}>
         <a href={props.link} target="_blank" rel="noopener noreferrer">
           {props.children}
         </a>
-      </div>
+      </p>
     );
   }
 

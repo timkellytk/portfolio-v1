@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../../assets/pdfs/resume.pdf';
+import resume from '../../../../assets/pdfs/resume.pdf';
 import style from './Resume.module.css';
 
 const Resume = () => {
