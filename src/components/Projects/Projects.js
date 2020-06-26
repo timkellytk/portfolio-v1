@@ -21,7 +21,7 @@ const Projects = () => {
         <Button link="https://github.com/timkellytk">
           View all projects on GitHub
         </Button>
-        <div className={style.SectionFast}>
+        <div className={style.SectionTop}>
           <div className={style.PhotoContainer}>
             <ProjectItem
               image={ticTacToe}
@@ -45,7 +45,7 @@ const Projects = () => {
             />
           </div>
         </div>
-        <div className={style.SectionSlow}>
+        <div className={style.SectionBottom}>
           <div className={style.PhotoContainer}>
             <ProjectItem
               image={restaurant}
