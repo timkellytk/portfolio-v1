@@ -1,7 +1,7 @@
 .Photo {
   display: block;
-  width: 21vw;
-  height: 12vw;
+  width: 35vw;
+  height: 20vw;
   max-width: none;
   margin-right: 1vw;
   margin-left: 1vw;
@@ -15,7 +15,7 @@
 }
 
 .Photo:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 @media screen and (max-width: 767px) {

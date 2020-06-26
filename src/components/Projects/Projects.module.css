@@ -1,15 +1,19 @@
-.PhotoSection {
+.SectionFast {
   display: block;
   margin-top: 40px;
   margin-right: -100px;
-  margin-left: -100px;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  will-change: transform;
+  animation-name: scrollfast;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 30s;
+  will-change: auto;
 }
-.PhotoSection2 {
+.SectionSlow {
   display: block;
   margin-top: 40px;
   margin-left: 20px;
@@ -18,7 +22,12 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  will-change: transform;
+  animation-name: scrollslow;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 30s;
+  will-change: auto;
 }
 .PhotoContainer {
   display: -webkit-box;
@@ -26,4 +35,21 @@
   display: -ms-flexbox;
   display: flex;
   padding: 1vw;
+}
+
+@keyframes scrollfast {
+  from {
+    margin-left: -100px;
+  }
+  to {
+    margin-left: -1000px;
+  }
+}
+@keyframes scrollslow {
+  from {
+    margin-left: -100px;
+  }
+  to {
+    margin-left: -800px;
+  }
 }
