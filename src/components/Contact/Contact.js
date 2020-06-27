@@ -1,6 +1,7 @@
 import React from 'react';
 import HelmetHOC from '../../hoc/Helmet/Helmet';
 import ogContact from '../../assets/images/openGraph/ogContact.png';
+import Button from '../Utility/Button/Button';
 import ContentContainer from '../Utility/ContentContainer/ContentContainer';
 import Animate from '../Utility/Animate/Animate';
 import style from './Contact.module.css';
@@ -35,9 +36,7 @@ const Contact = (props) => {
           </Animate>
           <Animate delayContent>
             <div className={style.ContactContainer}>
-              <a href="mailto:timpkelly@gmail.com" className={style.Button}>
-                Email Me
-              </a>
+              <Button link="mailto:timpkelly1@gmail.com">Email Me</Button>
               <div className={style.SocialContainer}>
                 <a
                   href="https://github.com/timkellytk"

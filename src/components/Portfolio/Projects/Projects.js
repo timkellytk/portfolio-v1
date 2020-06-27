@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem/ProjectItem';
 import Animate from '../../Utility/Animate/Animate';
 import Section from '../../Utility/Section/Section';
-import Button from '../../Utility/Button/Button';
+import LinkArrow from '../../Utility/LinkArrow/LinkArrow';
 import burgerBuilder from '../../assets/images/projects/the-odin-project/burger-builder.png';
 import calculator from '../../assets/images/projects/the-odin-project/calculator.png';
 import google from '../../assets/images/projects/the-odin-project/google.png';
@@ -18,9 +18,9 @@ const Projects = () => {
     <Animate delayContent>
       <Section colour="#eee">
         <h2>Review some of my projects from The Odin Project Bootcamp</h2>
-        <Button link="https://github.com/timkellytk">
+        <LinkArrow link="https://github.com/timkellytk">
           View all projects on GitHub
-        </Button>
+        </LinkArrow>
         <div className={style.SectionTop}>
           <div className={style.PhotoContainer}>
             <ProjectItem
