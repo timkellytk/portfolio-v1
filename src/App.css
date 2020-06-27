@@ -11,6 +11,7 @@ body {
 
 body {
   margin: 0 10vmin;
+  font-family: 'Karla', sans-serif;
 }
 ::selection {
   color: rgba(255, 255, 255, 0.99);
