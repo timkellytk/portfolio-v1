@@ -1,5 +1,8 @@
+.TitleMargin {
+  margin-bottom: 18vmin;
+}
 .Photo {
-  background-image: url(../../../../assets/images/about/tim-kelly-b&w.png);
+  background-image: url(../../../assets/images/about/tim-kelly-b&w.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11,7 +14,7 @@
 
 @media screen and (max-width: 767px) {
   .Photo {
-    background-image: url(../../../../assets/images/about/tim-kelly-b&w-mobile.png);
+    background-image: url(../../../assets/images/about/tim-kelly-b&w-mobile.png);
     background-position: center center;
     height: 140vmin;
   }

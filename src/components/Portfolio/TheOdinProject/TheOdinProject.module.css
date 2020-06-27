@@ -25,3 +25,11 @@
   display: flex;
   padding: 1vw;
 }
+.Content {
+  width: 60%;
+}
+@media (max-width: 1300px) {
+  .Content {
+    width: 100%;
+  }
+}
