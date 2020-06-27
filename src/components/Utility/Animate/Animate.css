@@ -29,10 +29,10 @@
   }
 }
 .delaytitle {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 .delaycontent {
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }

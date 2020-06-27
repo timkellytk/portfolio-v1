@@ -1,0 +1,10 @@
+.bigText {
+  font-size: 7em;
+  margin-top: 34vmin;
+}
+
+@media screen and (max-width: 767px) {
+  .bigText {
+    font-size: 4em;
+  }
+}
