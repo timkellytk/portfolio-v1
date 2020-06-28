@@ -14,7 +14,8 @@ const TheRamblerCoPreview = () => {
       avatarName="James Vodicka"
       avatarTitle="Founder of The Rambler Co"
       link="/portfolio/the-rambler-co"
-      colour="#ddeee8"
+      gradient1="#e8dfca"
+      gradient2="#f7c7a4"
     />
   );
 };

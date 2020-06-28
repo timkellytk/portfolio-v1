@@ -17,8 +17,9 @@ const EvolutionaryTutorsPreview = () => {
       avatar={avatar}
       avatarName="Darren Pehn"
       avatarTitle="Co-Owner of Evolutionary Tutors"
-      colour="#f0f2ff"
       link="/portfolio/evolutionary-tutors"
+      gradient1="#d3d3f9"
+      gradient2="#c8f4fc"
     />
   );
 };

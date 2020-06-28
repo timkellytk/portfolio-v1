@@ -5,7 +5,7 @@ import style from './PortfolioPreview.module.css';
 
 const PortfolioPreview = (props) => {
   return (
-    <Section colour={props.colour}>
+    <Section gradient1={props.gradient1} gradient2={props.gradient2}>
       <div className={style.Grid}>
         <div>
           <img src={props.logo} alt={props.name + ' logo'} width="70%" />

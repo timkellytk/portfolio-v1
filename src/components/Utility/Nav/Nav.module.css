@@ -19,7 +19,7 @@
 }
 
 .NavMargin {
-  margin: 20vmin 0 0 0;
+  margin: 24vmin 0 0 0;
 }
 
 .Logo {
@@ -31,6 +31,9 @@
 @media screen and (max-width: 767px) {
   .Nav {
     margin: 0;
+  }
+  .NavMargin {
+    margin: 30vmin 0 0 0;
   }
   .Logo {
     color: white;

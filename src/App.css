@@ -59,7 +59,7 @@ a:visited {
 }
 
 .margin {
-  margin: 12vmin auto;
+  margin: 16vmin auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -75,5 +75,8 @@ a:visited {
   p {
     font-size: 1.4em;
     margin-bottom: 8vmin;
+  }
+  .margin {
+    margin: 22vmin auto;
   }
 }

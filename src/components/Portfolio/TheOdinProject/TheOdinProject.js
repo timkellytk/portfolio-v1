@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem/ProjectItem';
 import Section from '../../Utility/Section/Section';
 import LinkArrow from '../../Utility/LinkArrow/LinkArrow';
+import logo from '../../../assets/images/projects/the-odin-project/odin-logo.svg';
 import burgerBuilder from '../../../assets/images/projects/the-odin-project/burger-builder.png';
 import calculator from '../../../assets/images/projects/the-odin-project/calculator.png';
 import google from '../../../assets/images/projects/the-odin-project/google.png';
@@ -14,8 +15,9 @@ import style from './TheOdinProject.module.css';
 
 const TheOdinProject = () => {
   return (
-    <Section colour="#f7f7f7">
+    <Section gradient1="#e0e0e0" gradient2="#ffd795">
       <div className={style.Content}>
+        <img src={logo} alt="the odin project logo" />
         <h2>Projects from The Odin Project Bootcamp</h2>
         <p>
           The Odin Project is a full stack web development bootcamp where you

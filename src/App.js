@@ -26,11 +26,6 @@ function App() {
             exact
             component={TheRamblerCoProject}
           />
-          <Route
-            path="/portfolio/evolutionary-tutors"
-            exact
-            component={EvolutionaryTutorsProject}
-          />
           <Route path="/contact" exact component={Contact} />
           <Route path="/404" exact component={NotFoundPage} />
           <Redirect to="/404" />
