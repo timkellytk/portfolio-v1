@@ -18,7 +18,7 @@ const Portfolio = () => {
           <h1>Web Development Portfolio</h1>
           <p>
             A collection of websites built for real-world clients and hobby
-            projects to learn the latest technologies.
+            projects created with the latest technologies.
           </p>
         </ContentContainer>
       </Animate>

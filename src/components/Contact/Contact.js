@@ -33,8 +33,6 @@ const Contact = (props) => {
                 <a href="mailto:timpkelly1@gmail.com">timpkelly1@gmail.com</a>.
               </p>
             </div>
-          </Animate>
-          <Animate delayContent>
             <div className={style.ContactContainer}>
               <Button link="mailto:timpkelly1@gmail.com">Email Me</Button>
               <div className={style.SocialContainer}>
