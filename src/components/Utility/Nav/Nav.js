@@ -16,7 +16,7 @@ const Nav = (props) => {
         </nav>
         <HamburgerMenu clicked={props.open} />
       </header>
-      <div className={style.NavPadding} />
+      <div className={style.NavMargin} />
     </React.Fragment>
   );
 };

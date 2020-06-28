@@ -14,7 +14,7 @@ import style from './TheOdinProject.module.css';
 
 const TheOdinProject = () => {
   return (
-    <Section colour="#eee">
+    <Section colour="#f7f7f7">
       <div className={style.Content}>
         <h2>Projects from The Odin Project Bootcamp</h2>
         <p>
@@ -23,7 +23,7 @@ const TheOdinProject = () => {
         </p>
       </div>
       <LinkArrow link="https://github.com/timkellytk">
-        View all projects on GitHub
+        View projects on GitHub
       </LinkArrow>
       <div className={style.SectionTop}>
         <div className={style.PhotoContainer}>

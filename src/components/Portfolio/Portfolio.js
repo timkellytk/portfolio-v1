@@ -3,6 +3,8 @@ import HelmetHOC from '../../hoc/Helmet/Helmet';
 import ogPortfolio from '../../assets/images/openGraph/ogPortfolio.png';
 import Animate from '../Utility/Animate/Animate';
 import ContentContainer from '../Utility/ContentContainer/ContentContainer';
+import TheRamblerCoPreview from './TheRamblerCo/TheRamblerCoPreview/TheRamblerCoPreview';
+import EvolutionaryTutorsPreview from './EvolutionaryTutors/EvolutionaryTutorsPreview/EvolutionaryTutorsPreview';
 import TheOdinProject from './TheOdinProject/TheOdinProject';
 
 const Portfolio = () => {
@@ -22,9 +24,13 @@ const Portfolio = () => {
           </p>
         </ContentContainer>
       </Animate>
-      <Animate delayContent>
-        <TheOdinProject />
-      </Animate>
+      <div className="margin">
+        <Animate delayContent>
+          <TheRamblerCoPreview />
+          <EvolutionaryTutorsPreview />
+          <TheOdinProject />
+        </Animate>
+      </div>
     </React.Fragment>
   );
 };

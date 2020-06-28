@@ -8,14 +8,14 @@ const Hero = () => {
     <React.Fragment>
       <ContentContainer>
         <Animate delayTitle>
-          <h1 className={style.TitleMargin}>
+          <h1 className="margin">
             Hello, my name is Tim. I am a front-end web developer in Sydney,
             Australia
           </h1>
         </Animate>
       </ContentContainer>
       <Animate delayContent>
-        <div className={style.Photo} />
+        <div className={[style.Photo, 'margin'].join(' ')} />
       </Animate>
     </React.Fragment>
   );
