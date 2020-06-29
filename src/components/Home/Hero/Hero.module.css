@@ -5,6 +5,7 @@
   background-position: center;
   height: 80vmin;
   width: 100%;
+  margin: 0 10vmin;
   box-sizing: border-box;
 }
 
@@ -13,5 +14,6 @@
     background-image: url(../../../assets/images/about/tim-kelly-b&w-mobile.png);
     background-position: center center;
     height: 140vmin;
+    margin: 0;
   }
 }

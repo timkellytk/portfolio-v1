@@ -1,0 +1,29 @@
+.Quote {
+  margin-top: -10px;
+  font-size: 38px;
+  line-height: 150%;
+  font-weight: 700;
+}
+.QuoteBox {
+  display: flex;
+  margin-top: 40px;
+}
+.QuoteAvatar {
+  width: 48px;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+.AvatarText {
+  font-weight: 700;
+  font-size: 1.1em;
+  line-height: 150%;
+}
+
+@media (max-width: 1000px) {
+  .Grid {
+    grid-template-columns: 1fr;
+  }
+  .Quote {
+    font-size: 30px;
+  }
+}

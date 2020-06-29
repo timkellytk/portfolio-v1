@@ -31,7 +31,7 @@
   margin-left: -50px;
   margin-right: -50px;
   animation-name: imageScroll;
-  animation-duration: 20s;
+  animation-duration: 50s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -87,6 +87,6 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-1000px);
+    transform: translateX(-2500px);
   }
 }

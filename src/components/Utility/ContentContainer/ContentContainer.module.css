@@ -1,10 +1,4 @@
 .MaxWidth {
   max-width: 940px;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 767px) {
-  .MaxWidth {
-    margin: 0 6%;
-  }
+  margin: auto;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Section from '../../components/Utility/Section/Section';
 import LinkArrow from '../../components/Utility/LinkArrow/LinkArrow';
+import Quote from '../../components/Utility/Quote/Quote';
 import style from './PortfolioPreview.module.css';
 
 const PortfolioPreview = (props) => {
@@ -14,20 +15,12 @@ const PortfolioPreview = (props) => {
             {'View ' + props.name + ' Project'}
           </LinkArrow>
         </div>
-        <div>
-          <p className={style.Quote}>"{props.quote}"</p>
-          <div className={style.QuoteBox}>
-            <img
-              src={props.avatar}
-              className={style.QuoteAvatar}
-              alt={props.avatarName}
-            />
-            <div className={style.AvatarText}>
-              <div>{props.avatarName}</div>
-              <div>{props.avatarTitle}</div>
-            </div>
-          </div>
-        </div>
+        <Quote
+          quote={props.quote}
+          avatar={props.avatar}
+          avatarName={props.avatarName}
+          avatarTitle={props.avatarTitle}
+        />
       </div>
     </Section>
   );

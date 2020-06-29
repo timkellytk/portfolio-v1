@@ -1,11 +1,12 @@
 import React from 'react';
+import BodyContent from '../../Utility/BodyContent/BodyContent';
 import ContentContainer from '../../Utility/ContentContainer/ContentContainer';
 import Animate from '../../Utility/Animate/Animate';
 import style from './Hero.module.css';
 
 const Hero = () => {
   return (
-    <React.Fragment>
+    <BodyContent>
       <ContentContainer>
         <Animate delayTitle>
           <h1 className="margin">
@@ -17,7 +18,7 @@ const Hero = () => {
       <Animate delayContent>
         <div className={[style.Photo, 'margin'].join(' ')} />
       </Animate>
-    </React.Fragment>
+    </BodyContent>
   );
 };
 

@@ -1,0 +1,8 @@
+.BodyContent {
+  margin: 0 10vmin;
+}
+@media screen and (max-width: 767px) {
+  .bodyContent {
+    margin: 0 5%;
+  }
+}

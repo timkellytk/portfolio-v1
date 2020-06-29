@@ -5,6 +5,5 @@
   overflow: hidden;
 }
 .Container {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 10vmin;
 }

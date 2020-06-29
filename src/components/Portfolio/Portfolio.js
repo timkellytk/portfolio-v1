@@ -1,6 +1,7 @@
 import React from 'react';
 import HelmetHOC from '../../hoc/Helmet/Helmet';
 import ogPortfolio from '../../assets/images/openGraph/ogPortfolio.png';
+import BodyContent from '../Utility/BodyContent/BodyContent';
 import Animate from '../Utility/Animate/Animate';
 import ContentContainer from '../Utility/ContentContainer/ContentContainer';
 import TheRamblerCoPreview from './TheRamblerCo/TheRamblerCoPreview/TheRamblerCoPreview';
@@ -9,7 +10,7 @@ import TheOdinProject from './TheOdinProject/TheOdinProject';
 
 const Portfolio = () => {
   return (
-    <React.Fragment>
+    <BodyContent>
       <HelmetHOC
         title="Portfolio | Client Websites | Tim Kelly, Front-End Web Developer"
         description="Tim Kelly is a front-end web developer in Sydney, Australia. Tim creates beautiful, responsive websites with HTML, CSS, JavaScript and React. Tim has built websites for The Rambler Co And Evolutionary Tutors."
@@ -31,7 +32,7 @@ const Portfolio = () => {
           <TheOdinProject />
         </Animate>
       </div>
-    </React.Fragment>
+    </BodyContent>
   );
 };
 

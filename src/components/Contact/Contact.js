@@ -2,6 +2,7 @@ import React from 'react';
 import HelmetHOC from '../../hoc/Helmet/Helmet';
 import ogContact from '../../assets/images/openGraph/ogContact.png';
 import Button from '../Utility/Button/Button';
+import BodyContent from '../Utility/BodyContent/BodyContent';
 import ContentContainer from '../Utility/ContentContainer/ContentContainer';
 import Animate from '../Utility/Animate/Animate';
 import style from './Contact.module.css';
@@ -19,7 +20,7 @@ const Contact = (props) => {
   );
 
   return (
-    <React.Fragment>
+    <BodyContent>
       {SEO}
       <ContentContainer>
         <div className={style.CentreContent}>
@@ -70,7 +71,7 @@ const Contact = (props) => {
           </Animate>
         </div>
       </ContentContainer>
-    </React.Fragment>
+    </BodyContent>
   );
 };
 

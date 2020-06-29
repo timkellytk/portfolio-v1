@@ -1,0 +1,26 @@
+.ArrowIcon {
+  width: 22px;
+  height: 10px;
+  margin-right: 16px;
+  margin-left: -3px;
+  margin-bottom: 10px;
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  display: inline-block;
+}
+.ArrowText {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 160%;
+  font-size: 1.3em;
+  font-weight: 700;
+  display: inline-block;
+}
+.Button {
+  text-decoration: none;
+  display: inline-block;
+}
+.Button:hover .ArrowIcon {
+  transform: translate(-8px, 0px);
+}

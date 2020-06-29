@@ -10,9 +10,9 @@ body {
 }
 
 body {
-  margin: 0 10vmin;
   font-family: 'Karla', sans-serif;
 }
+
 ::selection {
   color: rgba(255, 255, 255, 0.99);
   background: rgba(0, 0, 0, 0.99);
@@ -62,10 +62,11 @@ a:visited {
   margin: 16vmin auto;
 }
 
+.negativeNavMargin {
+  margin: -24vmin 0 0 0;
+}
+
 @media screen and (max-width: 767px) {
-  body {
-    margin: 0;
-  }
   h1 {
     font-size: 2.2em;
   }
@@ -78,5 +79,8 @@ a:visited {
   }
   .margin {
     margin: 22vmin auto;
+  }
+  .negativeNavMargin {
+    margin: -30vmin 0 0 0;
   }
 }
