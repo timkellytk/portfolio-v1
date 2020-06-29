@@ -15,7 +15,7 @@ import style from './TheOdinProject.module.css';
 
 const TheOdinProject = () => {
   return (
-    <Section gradient1="#e0e0e0" gradient2="#ffd795">
+    <Section gradient1="#e0e0e0" gradient2="#eddfc8">
       <div className={style.Content}>
         <img src={logo} alt="the odin project logo" />
         <h2>Projects from The Odin Project Bootcamp</h2>
