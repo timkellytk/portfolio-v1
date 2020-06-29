@@ -65,11 +65,13 @@ const PortfolioProject = (props) => {
               Back To Portfolio
             </BackArrow>
             <div>
-              <img
-                src={props.logo}
-                className={style.Logo}
-                alt={props.name + 'Logo'}
-              />
+              <a href={props.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={props.logo}
+                  className={style.Logo}
+                  alt={props.name + 'Logo'}
+                />
+              </a>
             </div>
             <h1>{props.projectTitle}</h1>
             <p>{props.projectDescription}</p>
@@ -77,7 +79,9 @@ const PortfolioProject = (props) => {
         </div>
         <div className={style.HeroImageSection} style={gradient}>
           <Animate delayTitle>
-            <div className={style.ImageContainer}>{imageScroll}</div>
+            <a href={props.url} target="_blank" rel="noopener noreferrer">
+              <div className={style.ImageContainer}>{imageScroll}</div>
+            </a>
           </Animate>
         </div>
       </div>
