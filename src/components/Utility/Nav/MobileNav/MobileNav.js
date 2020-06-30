@@ -8,8 +8,6 @@ const MobileNav = (props) => {
 
   if (props.show) {
     attachedClasses = [style.MobileNav, style.Open];
-  } else if (props.show === false) {
-    attachedClasses = [style.MobileNav, style.Closed];
   }
 
   return (
