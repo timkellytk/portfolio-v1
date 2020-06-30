@@ -1,4 +1,5 @@
 import React from 'react';
+import ContentContainer from '../ContentContainer/ContentContainer'
 import style from './Section.module.css';
 
 const Section = (props) => {
@@ -16,7 +17,9 @@ const Section = (props) => {
   console.log(background);
   return (
     <div className={style.Section} style={gradient}>
-      <div className={style.Container}>{props.children}</div>
+      <ContentContainer>
+        {props.children}
+      </ContentContainer>
     </div>
   );
 };
