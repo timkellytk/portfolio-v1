@@ -5,8 +5,8 @@ import style from './NavItems.module.css';
 const NavItems = (props) => {
   return (
     <div className={style.NavMenu}>
-      <NavLink to="/" onClick={props.clicked}>
-        <p className={style.NavLink}>HOME</p>
+      <NavLink to="/about" onClick={props.clicked}>
+        <p className={style.NavLink}>ABOUT</p>
       </NavLink>
       <NavLink to="/portfolio" onClick={props.clicked}>
         <p className={style.NavLink}>PORTFOLIO</p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../../components/Contact/Contact';
 import Animate from '../../components/Utility/Animate/Animate';
 import BodyContent from '../../components/Utility/BodyContent/BodyContent';
 import ContentContainer from '../../components/Utility/ContentContainer/ContentContainer';
@@ -88,6 +89,7 @@ const PortfolioProject = (props) => {
           </Animate>
         </ContentContainer>
       </BodyContent>
+      <Contact />
     </React.Fragment>
   );
 };

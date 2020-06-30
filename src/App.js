@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import ScrollToTop from './hoc/ScrollToTop/ScrollToTop';
 import Layout from './hoc/Layout/Layout';
 import Home from './components/Home/Home';
+import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
 import EvolutionaryTutorsProject from './components/Portfolio/EvolutionaryTutors/EvolutionaryTutorsProject/EvolutionaryTutorsProject';
 import TheRamblerCoProject from './components/Portfolio/TheRamblerCo/TheRamblerCoProject/TheRamblerCoProject';
@@ -17,6 +18,7 @@ function App() {
         <Layout>
           <Switch>
             <Route path="/" exact component={Home} />
+            <Route path="/about" exact component={About} />
             <Route path="/portfolio" exact component={Portfolio} />
             <Route
               path="/portfolio/evolutionary-tutors"
