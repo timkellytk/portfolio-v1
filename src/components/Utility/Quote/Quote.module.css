@@ -6,10 +6,12 @@
 }
 .QuoteBox {
   display: flex;
+  align-items: center;
   margin-top: 40px;
 }
 .QuoteAvatar {
   width: 48px;
+  height: 48px;
   margin-right: 24px;
   border-radius: 50%;
 }

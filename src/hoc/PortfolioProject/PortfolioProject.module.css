@@ -18,7 +18,7 @@
 }
 
 .HeroImageSection {
-  min-height: 400px;
+  min-height: 250px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -79,6 +79,9 @@
   }
   .Logo {
     margin-top: 20px;
+  }
+  .Image {
+    height: 200px;
   }
 }
 

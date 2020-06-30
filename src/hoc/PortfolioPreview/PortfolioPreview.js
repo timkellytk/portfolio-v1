@@ -12,7 +12,7 @@ const PortfolioPreview = (props) => {
           <img src={props.logo} alt={props.name + ' logo'} width="70%" />
           <p>{props.description}</p>
           <LinkArrow link={props.link} internal>
-            {'View ' + props.name + ' Project'}
+            View Full Project
           </LinkArrow>
         </div>
         <Quote
