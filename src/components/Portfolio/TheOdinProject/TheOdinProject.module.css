@@ -7,6 +7,10 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  animation-name: imageScrollTop;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 .SectionBottom {
   display: block;
@@ -17,6 +21,10 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  animation-name: imageScrollBottom;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 .PhotoContainer {
   display: -webkit-box;
@@ -31,5 +39,21 @@
 @media (max-width: 1300px) {
   .Content {
     width: 100%;
+  }
+}
+@keyframes imageScrollTop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-900px);
+  }
+}
+@keyframes imageScrollBottom {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-1200px);
   }
 }
