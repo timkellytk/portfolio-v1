@@ -2,7 +2,7 @@ import React from 'react';
 import Animate from '../../components/Utility/Animate/Animate';
 import BodyContent from '../../components/Utility/BodyContent/BodyContent';
 import ContentContainer from '../../components/Utility/ContentContainer/ContentContainer';
-import LinkArrow from '../../components/Utility/LinkArrow/LinkArrow';
+import Button from '../../components/Utility/Button/Button';
 import BackArrow from '../../components/Utility/BackArrow/BackArrow';
 import Quote from '../../components/Utility/Quote/Quote';
 import Divider from '../../components/Utility/Divider/Divider';
@@ -81,7 +81,7 @@ const PortfolioProject = (props) => {
               {content}
               <h1>The Result</h1>
               <div className={style.ViewWebsiteMargin}>
-                <LinkArrow link={props.url}>Visit The Website</LinkArrow>
+                <Button link={props.url}>Visit The Website</Button>
               </div>
               {imageScreenshot}
             </div>
