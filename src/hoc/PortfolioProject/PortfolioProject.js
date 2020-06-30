@@ -27,33 +27,15 @@ const PortfolioProject = (props) => {
     <img src={image} className={style.Screenshot} alt="ebook website" />
   ));
 
-  let context = null;
-  let problem = null;
-  let solution = null;
+  let content = null;
 
-  if (props.context) {
-    context = (
+  if (props.content) {
+    content = props.content.map((topic) => (
       <React.Fragment>
-        <h1>The Context</h1>
-        <p>{props.context}</p>
+        <h1>{topic.heading}</h1>
+        <p>{topic.paragraph}</p>
       </React.Fragment>
-    );
-  }
-  if (props.problem) {
-    problem = (
-      <React.Fragment>
-        <h1>The Problem</h1>
-        <p>{props.problem}</p>
-      </React.Fragment>
-    );
-  }
-  if (props.solution) {
-    solution = (
-      <React.Fragment>
-        <h1>The Solution</h1>
-        <p>{props.solution}</p>
-      </React.Fragment>
-    );
+    ));
   }
 
   return (
@@ -96,9 +78,7 @@ const PortfolioProject = (props) => {
                 avatarTitle={props.avatarTitle}
               />
               <Divider />
-              {context}
-              {problem}
-              {solution}
+              {content}
               <h1>The Result</h1>
               <div className={style.ViewWebsiteMargin}>
                 <LinkArrow link={props.url}>Visit The Website</LinkArrow>

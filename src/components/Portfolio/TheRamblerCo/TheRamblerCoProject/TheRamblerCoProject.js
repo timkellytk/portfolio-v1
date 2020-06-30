@@ -5,6 +5,7 @@ import ogRambler from '../../../../assets/images/openGraph/ogRambler.png';
 import logo from '../../../../assets/images/projects/the-rambler-co/rambler-logo.png';
 import avatar from '../../../../assets/images/projects/the-rambler-co/james-vodicka.jpg';
 import about from '../../../../assets/images/projects/the-rambler-co/screenshots/about.png';
+import backEnd from '../../../../assets/images/projects/the-rambler-co/screenshots/back-end-rambler.png';
 import blogAuthor from '../../../../assets/images/projects/the-rambler-co/screenshots/blog-author.png';
 import blogContent from '../../../../assets/images/projects/the-rambler-co/screenshots/blog-content.png';
 import blogFullImage from '../../../../assets/images/projects/the-rambler-co/screenshots/blog-full-image.png';
@@ -54,6 +55,19 @@ const TheRamblerCoProject = () => {
           collective,
           contribute,
           newsletterCTA,
+          backEnd,
+        ]}
+        content={[
+          {
+            heading: 'The Context',
+            paragraph:
+              'The Rambler Co is a community of travel lovers fuelled by a desire for local discovery, sharing travel stories to inspire your next Australian adventure. Tim is responsible for building a responsive website with a bespoke design, fast loading speeds, an intuitive back-end and high-quality training documentation.',
+          },
+          {
+            heading: 'The Requirements',
+            paragraph:
+              'The website needs to have a delightful design for users, a navigation to access stories and travel locations and an easy way to upload the latest stories and locations. The website needs website tracking for users and high-quality training documentation for the founder to update and maintain the website over time.',
+          },
         ]}
       />
     </React.Fragment>
