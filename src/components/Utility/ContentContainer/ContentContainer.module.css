@@ -3,6 +3,10 @@
   margin: auto;
 }
 
+.SectionContainer {
+  margin: 0 5%;
+}
+
 @media (max-width: 767px) {
   .ContentContainer {
     margin: 0 5%;

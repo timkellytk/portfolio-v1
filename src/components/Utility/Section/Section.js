@@ -17,7 +17,7 @@ const Section = (props) => {
   console.log(background);
   return (
     <div className={style.Section} style={gradient}>
-      <ContentContainer>
+      <ContentContainer section>
         {props.children}
       </ContentContainer>
     </div>
