@@ -21,8 +21,12 @@ You will also see any lint errors in the console.
 - [React](https://reactjs.org/) - The web framework used
 - [`react-router`](https://github.com/ReactTraining/react-router) - Used to convert React into a multi-page web application
 - [`react-helmet`](https://github.com/nfl/react-helmet) - Used to set the SEO settings (title tags, meta description, open graph images, etc.)
-- [`react-snap`](https://github.com/nfl/react-helmet) - Used to pre-render the web app into static HTML (increase page speeds and enables SEO)
+- [`react-snap`](https://github.com/stereobooster/react-snap) - Used to pre-render the web app into static HTML (increase page speeds and enables SEO)
+- [`react-router-sitemap`](https://github.com/kuflash/react-router-sitemap) - Used to create an XML sitemap to improve SEO with better crawling
 - [`react-gtm-module`](http://github.com/alinemorelli/react-gtm) - Used to install the Google Tag Manager container for website tracking
+
+## Updating the sitemap
+To update the sitemap, you need to manually add new routes to the `sitemap-routes.js` file.
 
 ## License
 
