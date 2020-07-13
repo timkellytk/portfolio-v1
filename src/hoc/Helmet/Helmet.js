@@ -18,7 +18,7 @@ const HelmetHOC = (props) => {
       <meta property="og:title" content={props.title} />
       <meta property="og:description" content={props.description} />
       <meta property="og:type" content="article" />
-      <meta property="og:url" content={props.match.url} />
+      <meta property="og:url" content={canonical} />
       {imageMeta}
       <meta name="twitter:card" value="summary" />
     </Helmet>
