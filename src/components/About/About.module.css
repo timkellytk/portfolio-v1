@@ -1,5 +1,5 @@
 .Photo {
-  background-image: url(../../assets/images/about/tim-kelly-b&w.png);
+  background-image: url(../../assets/images/about/tim-kelly.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -22,7 +22,7 @@ a.Resume:visited {
 
 @media screen and (max-width: 767px) {
   .Photo {
-    background-image: url(../../assets/images/about/tim-kelly-b&w-mobile.png);
+    background-image: url(../../assets/images/about/tim-kelly-mobile.png);
     background-position: center center;
     height: 140vmin;
     margin: 0;
