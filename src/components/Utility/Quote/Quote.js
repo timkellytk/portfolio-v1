@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import style from './Quote.module.css';
 
 const Quote = (props) => {
@@ -18,6 +19,13 @@ const Quote = (props) => {
       </div>
     </div>
   );
+};
+
+Quote.propTypes = {
+  quote: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  avatarName: PropTypes.string.isRequired,
+  avatarTitle: PropTypes.string.isRequired,
 };
 
 export default Quote;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Contact from '../../components/Contact/Contact';
 import Animate from '../../components/Utility/Animate/Animate';
 import BodyContent from '../../components/Utility/BodyContent/BodyContent';
@@ -92,6 +93,22 @@ const PortfolioProject = (props) => {
       <Contact />
     </React.Fragment>
   );
+};
+
+PortfolioProject.propTypes = {
+  name: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  logo: PropTypes.string.isRequired,
+  projectTitle: PropTypes.string.isRequired,
+  projectDescription: PropTypes.string.isRequired,
+  gradient1: PropTypes.string.isRequired,
+  gradient2: PropTypes.string.isRequired,
+  quote: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  avatarName: PropTypes.string.isRequired,
+  avatarTitle: PropTypes.string.isRequired,
+  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+  content: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default PortfolioProject;

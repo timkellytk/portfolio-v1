@@ -64,7 +64,9 @@ const AboutComponent = () => {
             </a>
           </p>
           <div className={style.ContactList}>
-            <ContactItem>timpkelly1@gmail.com</ContactItem>
+            <ContactItem link="mailto:timpkelly1@gmail.com">
+              timpkelly1@gmail.com
+            </ContactItem>
             <ContactItem link="https://github.com/timkellytk">
               GitHub
             </ContactItem>

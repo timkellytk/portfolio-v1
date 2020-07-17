@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { withRouter } from 'react-router-dom';
 
@@ -23,6 +24,12 @@ const HelmetHOC = (props) => {
       <meta name="twitter:card" value="summary" />
     </Helmet>
   );
+};
+
+HelmetHOC.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default withRouter(HelmetHOC);

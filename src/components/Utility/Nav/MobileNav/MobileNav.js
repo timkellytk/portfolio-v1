@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import NavItems from '../NavItems/Navitems';
 import close from '../../../../assets/images/utility/exit.svg';
 import style from './MobileNav.module.css';
@@ -18,6 +19,11 @@ const MobileNav = (props) => {
       </div>
     </div>
   );
+};
+
+MobileNav.propTypes = {
+  show: PropTypes.bool.isRequired,
+  close: PropTypes.func.isRequired,
 };
 
 export default MobileNav;

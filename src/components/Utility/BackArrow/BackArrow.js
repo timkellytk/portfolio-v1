@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import arrow from '../../../assets/images/utility/back-arrow.svg';
 import style from './BackArrow.module.css';
@@ -30,6 +31,10 @@ const BackArrow = (props) => {
   }
 
   return link;
+};
+
+BackArrow.propTypes = {
+  link: PropTypes.string.isRequired,
 };
 
 export default BackArrow;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import NavItems from './NavItems/Navitems';
 import HamburgerMenu from './MobileNav/HamburgerMenu/HamburgerMenu';
@@ -19,6 +20,10 @@ const Nav = (props) => {
       <div className={style.NavMargin} />
     </React.Fragment>
   );
+};
+
+Nav.propTypes = {
+  open: PropTypes.func.isRequired,
 };
 
 export default Nav;

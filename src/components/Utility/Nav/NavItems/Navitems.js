@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import style from './NavItems.module.css';
 
@@ -16,6 +17,10 @@ const NavItems = (props) => {
       </NavLink>
     </div>
   );
+};
+
+NavItems.propTypes = {
+  clicked: PropTypes.func,
 };
 
 export default NavItems;
