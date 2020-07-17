@@ -23,20 +23,30 @@ const PortfolioProject = (props) => {
   const imageScroll = props.images
     .slice(0, 7)
     .map((image) => (
-      <img src={image} className={style.Image} alt="ebook website" />
+      <img
+        src={image}
+        key={'scroll ' + image}
+        className={style.Image}
+        alt="ebook website"
+      />
     ));
   const imageScreenshot = props.images.map((image) => (
-    <img src={image} className={style.Screenshot} alt="ebook website" />
+    <img
+      src={image}
+      key={'screenshot ' + image}
+      className={style.Screenshot}
+      alt="ebook website"
+    />
   ));
 
   let content = null;
 
   if (props.content) {
     content = props.content.map((topic) => (
-      <React.Fragment>
+      <div key={topic.heading}>
         <h1>{topic.heading}</h1>
         <p>{topic.paragraph}</p>
-      </React.Fragment>
+      </div>
     ));
   }
 
