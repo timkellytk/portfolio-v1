@@ -39,7 +39,7 @@ const TheRamblerCoProject = () => {
         gradient1="#e8dfca"
         gradient2="#f7c7a4"
         avatar={avatar}
-        quote="Thanks Tim, it's looking really great! So thrilled with how it's turned it - you've done an awesome job"
+        quote="I have been working with Tim to build a new content-focused Australian travel website, The Rambler Co, over the past few months and have been highly impressed with his knowledge, work ethic and professionalism in helping us bring our ideas to life. Not only has Tim worked tirelessly on the design of the website... Tim has gone above and beyond in solving the problems presented to him, and has always offered appropriate solutions to any issues that have arisen. I have loved working with Tim to bring The Rambler Co to life."
         avatarName="James Vodicka"
         avatarTitle="Founder of The Rambler Co"
         images={[

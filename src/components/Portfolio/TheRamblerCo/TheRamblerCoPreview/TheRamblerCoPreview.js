@@ -8,7 +8,7 @@ const TheRamblerCoPreview = () => {
     <PortfolioPreview
       name="The Rambler Co"
       description=" Sharing travel stories to inspire your next Australian adventure"
-      quote="Thanks Tim, it's looking really great! So thrilled with how it's turned it - you've done an awesome job"
+      quote="Highly impressed with Tim's knowledge, work ethic and professionalism in helping us bring our ideas to life... Tim has gone above and beyond in solving the problems presented to him"
       logo={logo}
       avatar={avatar}
       avatarName="James Vodicka"
