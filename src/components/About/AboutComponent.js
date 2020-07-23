@@ -54,13 +54,13 @@ const AboutComponent = () => {
             .
           </p>
           <p>
-            Now I'm available for a full-time role as a junior web developer in
+            Now I'm available for a full-time role as a product manager in
             Sydney Australia. If you're hiring, please get in touch by any means
             of communication.
           </p>
           <p>
             <a className={style.Resume} href={resume}>
-              View resume (PDF 42kb)
+              View resume (PDF 70kb)
             </a>
           </p>
           <div className={style.ContactList}>
