@@ -21,42 +21,23 @@ const AboutComponent = () => {
         <div className={[style.Photo, 'margin'].join(' ')} />
         <ContentContainer>
           <p>
-            I create beautiful, responsive websites using HTML, CSS, JavaScript
-            and React. After completing a Bachelor's Marketing and Media at
-            Macquarie University, I spent 3-years learning how to code, built
-            and sold,{' '}
+            I create beautiful, responsive websites using HTML, CSS, JavaScript,
+            React and Redux. I'm a highly energetic self-starter that built and
+            sold a private tutoring business with $350k in revenue and $100k in
+            profit. Now I'm studying front-end web development at{' '}
             <a
-              href="https://www.evolutionarytutors.com.au/"
+              href="https://www.theodinproject.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Evolutionary Tutors
-            </a>{' '}
-            and worked as an SEO executive in London.
-          </p>
-          <p>
-            Currently, I'm completing the{' '}
-            <a
-              href="https://www.theodinproject.com/tracks/full-stack-javascript"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Full Stack JavaScript Bootcamp
-            </a>{' '}
-            at The Odin Project and working as a freelance developer for{' '}
-            <a
-              href="https://www.therambler.co/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              The Rambler Co
+              The Odin Project{' '}
             </a>
-            .
+            and looking for a career change as a junior web developer.
           </p>
           <p>
-            Now I'm available for a full-time role as a product manager in
-            Sydney Australia. If you're hiring, please get in touch by any means
-            of communication.
+            I'm available for a full-time role as a junior front end developer
+            in Sydney Australia. If you're hiring, please get in touch by any
+            means of communication.
           </p>
           <p>
             <a className={style.Resume} href={resume}>
