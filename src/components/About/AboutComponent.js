@@ -41,7 +41,7 @@ const AboutComponent = () => {
           </p>
           <p>
             <a className={style.Resume} href={resume}>
-              View resume (PDF 70kb)
+              View resume
             </a>
           </p>
           <div className={style.ContactList}>
