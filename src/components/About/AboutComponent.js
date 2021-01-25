@@ -21,23 +21,25 @@ const AboutComponent = () => {
         <div className={[style.Photo, 'margin'].join(' ')} />
         <ContentContainer>
           <p>
-            I create beautiful, responsive websites using HTML, CSS, JavaScript,
-            React and Redux. I'm a highly energetic self-starter that built and
-            sold a private tutoring business with $350k in revenue and $100k in
-            profit. Now I'm studying front-end web development at{' '}
-            <a
-              href="https://www.theodinproject.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              The Odin Project{' '}
-            </a>
-            and looking for a career change as a junior web developer.
+            I'm a front-end web developer with an eye for design and 3-years
+            experience working for small businesses and large enterprises.
           </p>
           <p>
-            I'm available for a full-time role as a junior front end developer
-            in Sydney Australia. If you're hiring, please get in touch by any
-            means of communication.
+            In 2017, I cofounded a private tutoring business and launched it
+            into the world with my first WordPress website. For the next two and
+            half years, I hustled to build the company from $0 to $350k in
+            revenue, teaching myself HTML, CSS and JavaScript in the process.
+          </p>
+          <p>
+            In 2020, I went full-time studying how to build modern web
+            applications with JavaScript, React, Redux and Firebase. Outside of
+            study, I made websites for Sketchbox, The Rambler Co, Swarm,
+            SculptrVR and Greensky Games.
+          </p>
+          <p>
+            Now, I'm a full-time developer intern at Southern Cross Austereo
+            building an audio platform with NextJS, Redux, Cloud Functions and a
+            Headless CMS.
           </p>
           <p>
             <a className={style.Resume} href={resume}>
@@ -53,9 +55,6 @@ const AboutComponent = () => {
             </ContactItem>
             <ContactItem link="https://www.linkedin.com/in/tim-patrick-kelly/">
               LinkedIn
-            </ContactItem>
-            <ContactItem link="https://www.instagram.com/thetimman/">
-              Instagram
             </ContactItem>
           </div>
         </ContentContainer>

@@ -6,7 +6,6 @@ import Animate from '../Utility/Animate/Animate';
 import style from './Contact.module.css';
 import github from '../../assets/images/utility/github.png';
 import linkedin from '../../assets/images/utility/linkedin.png';
-import instagram from '../../assets/images/utility/instagram.png';
 
 const ContactComponent = () => {
   return (
@@ -19,10 +18,9 @@ const ContactComponent = () => {
                 <div className={style.Avatar} />
                 <h1 className={style.Title}>Get in touch</h1>
                 <p>
-                  I'm here to help you with your next website or web development
-                  role. Get in touch at{' '}
-                  <a href="mailto:timpkelly1@gmail.com">timpkelly1@gmail.com</a>
-                  .
+                  Contact me at{' '}
+                  <a href="mailto:timpkelly1@gmail.com">timpkelly1@gmail.com</a>{' '}
+                  for upcoming web developer roles.
                 </p>
               </div>
               <div className={style.ContactContainer}>
@@ -48,17 +46,6 @@ const ContactComponent = () => {
                       src={linkedin}
                       className={style.SocialIcon}
                       alt="linkedin"
-                    />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/thetimman/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src={instagram}
-                      className={style.SocialIcon}
-                      alt="instagram"
                     />
                   </a>
                 </div>
