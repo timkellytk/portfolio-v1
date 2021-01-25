@@ -7,6 +7,10 @@ import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
 import EvolutionaryTutorsProject from './components/Portfolio/EvolutionaryTutors/EvolutionaryTutorsProject/EvolutionaryTutorsProject';
 import TheRamblerCoProject from './components/Portfolio/TheRamblerCo/TheRamblerCoProject/TheRamblerCoProject';
+import GreenskyGamesProject from './components/Portfolio/GreenskyGames/GreenskyGamesProject/GreenskyGamesProject';
+import SculptrVRProject from './components/Portfolio/SculptrVR/SculptrVRProject/SculptrVRProject';
+import SketchboxDesignProject from './components/Portfolio/SketchboxDesign/SketchboxDesignProject/SketchboxDesignProject';
+import SwarmProject from './components/Portfolio/Swarm/SwarmProject/SwarmProject';
 import Contact from './components/Contact/Contact';
 import NotFoundPage from './components/Utility/NotFoundPage/NotFoundPage';
 import './App.css';
@@ -30,6 +34,22 @@ function App() {
               exact
               component={TheRamblerCoProject}
             />
+            <Route
+              path="/portfolio/greensky-games"
+              exact
+              component={GreenskyGamesProject}
+            />
+            <Route
+              path="/portfolio/sculptrvr"
+              exact
+              component={SculptrVRProject}
+            />
+            <Route
+              path="/portfolio/sketchbox-design"
+              exact
+              component={SketchboxDesignProject}
+            />
+            <Route path="/portfolio/swarm" exact component={SwarmProject} />
             <Route path="/contact" exact component={Contact} />
             <Route path="/404" exact component={NotFoundPage} />
             <Redirect to="/404" />

@@ -36,7 +36,7 @@ const EvolutionaryTutorsProject = () => {
         name="Evolutionary Tutors"
         logo={logo}
         url="https://www.evolutionarytutors.com.au/"
-        projectTitle="Website Build"
+        projectTitle="Website Build - SwarmVR"
         projectDescription="A bespoke website to find students the best tutors, give tutors
               effective training and save administrators time."
         gradient1="#d3d3f9"

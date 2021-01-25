@@ -34,7 +34,7 @@ const TheRamblerCoProject = () => {
         name="The Rambler Co"
         url="https://www.therambler.co/"
         logo={logo}
-        projectTitle="Website Build For A Travel Photographer"
+        projectTitle="Website Build"
         projectDescription="A responsive website built from scratch to showcase the travel photography and stories for James Vodicka and his team"
         gradient1="#e8dfca"
         gradient2="#f7c7a4"
