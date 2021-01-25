@@ -1,7 +1,6 @@
 import React from 'react';
 import PortfolioPreview from '../../../../hoc/PortfolioPreview/PortfolioPreview';
 import logo from '../../../../assets/images/projects/the-rambler-co/rambler-logo.png';
-import avatar from '../../../../assets/images/projects/the-rambler-co/james-vodicka.jpg';
 
 const TheRamblerCoPreview = () => {
   return (
