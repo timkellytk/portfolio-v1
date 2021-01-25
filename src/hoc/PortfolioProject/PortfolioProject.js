@@ -60,11 +60,13 @@ const PortfolioProject = (props) => {
             </BackArrow>
             <div>
               <a href={props.url} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={props.logo}
-                  className={style.Logo}
-                  alt={props.name + 'Logo'}
-                />
+                {props.logo && (
+                  <img
+                    src={props.logo}
+                    className={style.Logo}
+                    alt={props.name + 'Logo'}
+                  />
+                )}
               </a>
             </div>
             <h1>{props.projectTitle}</h1>
@@ -83,13 +85,17 @@ const PortfolioProject = (props) => {
         <ContentContainer>
           <Animate delayTitle>
             <div className="margin">
-              <Quote
-                avatar={props.avatar}
-                quote={props.quote}
-                avatarName={props.avatarName}
-                avatarTitle={props.avatarTitle}
-              />
-              <Divider />
+              {props.quote && (
+                <>
+                  <Quote
+                    avatar={props.avatar}
+                    quote={props.quote}
+                    avatarName={props.avatarName}
+                    avatarTitle={props.avatarTitle}
+                  />
+                  <Divider />
+                </>
+              )}
               {content}
               <h1>The Result</h1>
               <div className={style.ViewWebsiteMargin}>

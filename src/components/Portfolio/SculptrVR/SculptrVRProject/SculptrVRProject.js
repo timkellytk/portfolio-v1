@@ -1,31 +1,18 @@
 import React from 'react';
 import HelmetHOC from '../../../../hoc/Helmet/Helmet';
 import PortfolioProject from '../../../../hoc/PortfolioProject/PortfolioProject';
-import ogEvolutionary from '../../../../assets/images/openGraph/ogEvolutionary.png';
-import avatar from '../../../../assets/images/projects/evolutionary-tutors/darren-pehn.jpeg';
-import logo from '../../../../assets/images/projects/evolutionary-tutors/evolutionary-logo.png';
-import home from '../../../../assets/images/projects/evolutionary-tutors/screenshots/home.png';
-import infoCards from '../../../../assets/images/projects/evolutionary-tutors/screenshots/info-cards.png';
-import tickpoints from '../../../../assets/images/projects/evolutionary-tutors/screenshots/tickpoints.png';
-import sydney from '../../../../assets/images/projects/evolutionary-tutors/screenshots/sydney.png';
-import melbourne from '../../../../assets/images/projects/evolutionary-tutors/screenshots/melbourne.png';
-import pricing from '../../../../assets/images/projects/evolutionary-tutors/screenshots/pricing.png';
-import reviews from '../../../../assets/images/projects/evolutionary-tutors/screenshots/reviews.png';
-import tutor from '../../../../assets/images/projects/evolutionary-tutors/screenshots/tutor.png';
-import tutorsPreview from '../../../../assets/images/projects/evolutionary-tutors/screenshots/tutors-preview.png';
-import tutorSubjects from '../../../../assets/images/projects/evolutionary-tutors/screenshots/tutor-subjects.png';
-import ebook from '../../../../assets/images/projects/evolutionary-tutors/screenshots/ebook.png';
-import ebookQuiz from '../../../../assets/images/projects/evolutionary-tutors/screenshots/ebook-quiz.png';
-import ebookChapters from '../../../../assets/images/projects/evolutionary-tutors/screenshots/ebook-chapters.png';
-import speedScore from '../../../../assets/images/projects/evolutionary-tutors/screenshots/speed-score-evolutionary.png';
+import ogSculptrVR from '../../../../assets/images/openGraph/ogSculptrVR.png';
+import different from '../../../../assets/images/projects/sculptrvr/screenshots/different-sculptrvr.png';
+import home from '../../../../assets/images/projects/sculptrvr/screenshots/home-sculptrvr.png';
+import love from '../../../../assets/images/projects/sculptrvr/screenshots/loves-sculptrvr.png';
+import play from '../../../../assets/images/projects/sculptrvr/screenshots/play-sculptrvr.png';
+import video from '../../../../assets/images/projects/sculptrvr/screenshots/video-sculptrvr.png';
 
-const EvolutionaryTutorsProject = () => {
+const SculptrVR = () => {
   let SEO = (
     <HelmetHOC
-      title="Evolutionary Tutors Case Study | timkelly.dev"
-      description="The story behind a bespoke website that find students the best tutors, give tutors
-              effective training and save administrators time."
-      image={ogEvolutionary}
+      title="SculptrVR Case Study | timkelly.dev"
+      image={ogSculptrVR}
     />
   );
 
@@ -34,43 +21,17 @@ const EvolutionaryTutorsProject = () => {
       {SEO}
       <PortfolioProject
         name="Evolutionary Tutors"
-        logo={logo}
         url="https://www.evolutionarytutors.com.au/"
-        projectTitle="Website Build - SculptrVR"
-        projectDescription="A bespoke website to find students the best tutors, give tutors
-              effective training and save administrators time."
+        projectTitle="Website Build"
+        projectDescription="A bespoke website to get players excited to download and play a 3d virtual reality sculpting game."
         gradient1="#d3d3f9"
         gradient2="#c8f4fc"
-        avatar={avatar}
-        quote="Seldom do you come across such a professional and competent young person like Tim. My partner and I had the pleasure of dealing with Tim and Nathan for over six weeks during our acquisition of Evolutionary Tutors. We were particularly impressed by Tim's transparency and attention to detail throughout the entire transaction and, in particular, the handover process. His responses to our queries were always timely, detailed and well-considered."
-        avatarName="Darren Pehn"
-        avatarTitle="Co-Owner of Evolutionary Tutors"
-        images={[
-          home,
-          sydney,
-          melbourne,
-          infoCards,
-          tickpoints,
-          pricing,
-          reviews,
-          tutorsPreview,
-          tutor,
-          tutorSubjects,
-          ebook,
-          ebookQuiz,
-          ebookChapters,
-          speedScore,
-        ]}
+        images={[home, love, play, different, video]}
         content={[
           {
             heading: 'The Context',
             paragraph:
-              'Evolutionary Tutors is a private tutoring marketplace that matches primary school and high school students with private tutors in Sydney and Melbourne. Evolutionary Tutors was founded in February 2017 by Tim Kelly and Nathan Reidy before being acquired in November 2019. Tim was responsible for building the website and tutor training program for Evolutionary Tutors.',
-          },
-          {
-            heading: 'The Requirements',
-            paragraph:
-              'Evolutionary Tutors is an online-only marketplace that matches parents and students with private tutors. The website needs to feel premium and trustworthy for parents, exclusive and attractive for tutors and simple to update tutors and subjects for administrators.',
+              'SculptrVR was rebranded to be more approachable and exciting to the next generation of virtual reality gamers. The wesbite needed to make it exciting to create sculptures with your friends in VR, get people to join the SculptrVR community and learn more about how to play the game in the documentation.',
           },
         ]}
       />
@@ -78,4 +39,4 @@ const EvolutionaryTutorsProject = () => {
   );
 };
 
-export default EvolutionaryTutorsProject;
+export default SculptrVR;
