@@ -1,7 +1,7 @@
 import React from 'react';
 import HelmetHOC from '../../../../hoc/Helmet/Helmet';
 import PortfolioProject from '../../../../hoc/PortfolioProject/PortfolioProject';
-import ogEvolutionary from '../../../../assets/images/openGraph/ogEvolutionary.png';
+import ogSwarm from '../../../../assets/images/openGraph/ogSwarm.png';
 import logo from '../../../../assets/images/projects/swarm/swarm-logo.png';
 import home from '../../../../assets/images/projects/swarm/screenshots/home.png';
 import play from '../../../../assets/images/projects/swarm/screenshots/play.png';
@@ -13,10 +13,8 @@ import contact from '../../../../assets/images/projects/swarm/screenshots/contac
 const EvolutionaryTutorsProject = () => {
   let SEO = (
     <HelmetHOC
-      title="Evolutionary Tutors Case Study | timkelly.dev"
-      description="The story behind a bespoke website that find students the best tutors, give tutors
-              effective training and save administrators time."
-      image={ogEvolutionary}
+      title="Swarm Website Build | timkelly.dev"
+      image={ogSwarm}
     />
   );
 
@@ -24,7 +22,7 @@ const EvolutionaryTutorsProject = () => {
     <React.Fragment>
       {SEO}
       <PortfolioProject
-        name="Evolutionary Tutors"
+        name="Swarm"
         logo={logo}
         url="https://swarm-vr-game.webflow.io/"
         projectTitle="Website Build"

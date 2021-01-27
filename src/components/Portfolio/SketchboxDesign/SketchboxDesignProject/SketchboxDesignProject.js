@@ -1,7 +1,7 @@
 import React from 'react';
 import HelmetHOC from '../../../../hoc/Helmet/Helmet';
 import PortfolioProject from '../../../../hoc/PortfolioProject/PortfolioProject';
-import ogEvolutionary from '../../../../assets/images/openGraph/ogEvolutionary.png';
+import ogSketchbox from '../../../../assets/images/openGraph/ogSketchbox.png';
 import logo from '../../../../assets/images/projects/sketchbox-design/sketchbox-design-logo.png';
 import home from '../../../../assets/images/projects/sketchbox-design/screenshots/home.png';
 import benefits from '../../../../assets/images/projects/sketchbox-design/screenshots/benefits.png';
@@ -13,10 +13,8 @@ import integrations from '../../../../assets/images/projects/sketchbox-design/sc
 const SketchboxDesignProject = () => {
   let SEO = (
     <HelmetHOC
-      title="Evolutionary Tutors Case Study | timkelly.dev"
-      description="The story behind a bespoke website that find students the best tutors, give tutors
-              effective training and save administrators time."
-      image={ogEvolutionary}
+      title="Sketchbox Design Website Update | timkelly.dev"
+      image={ogSketchbox}
     />
   );
 

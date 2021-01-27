@@ -1,7 +1,7 @@
 import React from 'react';
 import HelmetHOC from '../../../../hoc/Helmet/Helmet';
 import PortfolioProject from '../../../../hoc/PortfolioProject/PortfolioProject';
-import ogEvolutionary from '../../../../assets/images/openGraph/ogEvolutionary.png';
+import ogGreensky from '../../../../assets/images/openGraph/ogGreensky.png';
 import logo from '../../../../assets/images/projects/greensky-games/greensky-logo.png';
 import home from '../../../../assets/images/projects/greensky-games/screenshots/home.png';
 import company from '../../../../assets/images/projects/greensky-games/screenshots/company.png';
@@ -13,10 +13,8 @@ import contact from '../../../../assets/images/projects/greensky-games/screensho
 const GreenskyGamesProject = () => {
   let SEO = (
     <HelmetHOC
-      title="Evolutionary Tutors Case Study | timkelly.dev"
-      description="The story behind a bespoke website that find students the best tutors, give tutors
-              effective training and save administrators time."
-      image={ogEvolutionary}
+      title="Greensky Games Website Build | timkelly.dev"
+      image={ogGreensky}
     />
   );
 

@@ -1,20 +1,18 @@
 import React from 'react';
 import HelmetHOC from '../../../../hoc/Helmet/Helmet';
 import PortfolioProject from '../../../../hoc/PortfolioProject/PortfolioProject';
-import ogEvolutionary from '../../../../assets/images/openGraph/ogEvolutionary.png';
+import ogSculptrVR from '../../../../assets/images/openGraph/ogSculptrVR.png';
 import different from '../../../../assets/images/projects/sculptrvr/screenshots/different-sculptrvr.png';
 import home from '../../../../assets/images/projects/sculptrvr/screenshots/home-sculptrvr.png';
 import love from '../../../../assets/images/projects/sculptrvr/screenshots/loves-sculptrvr.png';
 import play from '../../../../assets/images/projects/sculptrvr/screenshots/play-sculptrvr.png';
 import video from '../../../../assets/images/projects/sculptrvr/screenshots/video-sculptrvr.png';
 
-const SculptrVR = () => {
+const SculptrVRProject = () => {
   let SEO = (
     <HelmetHOC
-      title="Evolutionary Tutors Case Study | timkelly.dev"
-      description="The story behind a bespoke website that find students the best tutors, give tutors
-              effective training and save administrators time."
-      image={ogEvolutionary}
+      title="SculptrVR website build | timkelly.dev"
+      image={ogSculptrVR}
     />
   );
 
@@ -22,7 +20,7 @@ const SculptrVR = () => {
     <React.Fragment>
       {SEO}
       <PortfolioProject
-        name="Evolutionary Tutors"
+        name="SculptrVR"
         url="https://www.sculptrvr.com/"
         projectTitle="Website Build"
         projectDescription="A bespoke website to get players excited to download and play a 3d virtual reality sculpting game."
@@ -41,4 +39,4 @@ const SculptrVR = () => {
   );
 };
 
-export default SculptrVR;
+export default SculptrVRProject;
