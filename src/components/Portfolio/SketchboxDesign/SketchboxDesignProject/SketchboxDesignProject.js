@@ -26,7 +26,7 @@ const SketchboxDesignProject = () => {
         logo={logo}
         url="https://design.sketchbox3d.com/"
         projectTitle="Website Update"
-        projectDescription="A website update for a design and collaboration tool helping people build the future in augmented reality and virtual reality."
+        projectDescription="Sketchbox Design is a marketing website for a VR design and collaboration tool."
         gradient1="#d1d0e8"
         gradient2="#ab9ad3"
         images={[
@@ -41,7 +41,7 @@ const SketchboxDesignProject = () => {
           {
             heading: 'The Context',
             paragraph:
-              'Sketchbox design is an enterprise software for large organisations for developers and designers to build more efficiently and effectively in virtual reality. The website needs to be informative, signal professionalism and get people excited about using the software for better results at work.',
+              'Sketchbox design is enterprise software for large organisations for developers and designers to build more efficiently and effectively in virtual reality. The website needs to be informative, signal professionalism and get people excited about using the software for better results at work.',
           },
         ]}
       />

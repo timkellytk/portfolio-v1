@@ -6,7 +6,7 @@ const SwarmPreview = () => {
   return (
     <PortfolioPreview
       name="Swarm"
-      description="Epic arcade shooter built for VR, fast-paced, quick-sessions and bright colourful worlds"
+      description="Epic arcade shooter built for VR, fast-paced, quick-sessions and colourful worlds"
       logo={logo}
       link="/portfolio/swarm"
       gradient1="#24dae0"

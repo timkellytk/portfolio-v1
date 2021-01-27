@@ -26,7 +26,7 @@ const GreenskyGamesProject = () => {
         logo={logo}
         url="https://greensky-games.webflow.io/"
         projectTitle="Website Build"
-        projectDescription="Creating a website for an indie gaming studio looking to attract the best talent and get favourable mentions in the press."
+        projectDescription="An indie gaming studio looking to attract the best development talent and get favourable mentions in the press."
         gradient1="#b7d9b8"
         gradient2="#4da13b"
         images={[
@@ -41,7 +41,7 @@ const GreenskyGamesProject = () => {
           {
             heading: 'The Context',
             paragraph:
-              'Greensky Games needed a professional website to attract the best developers and work with top media professionals. Greensky creates intense VR games that push the limits of technology, this inspired the minimalist modern website design.',
+              'Greensky Games needed a professional website to attract the best developers and work with top media professionals. Greensky creates intense VR games that push the limits of technology, which inspired the minimalist modern website design.',
           }
         ]}
       />

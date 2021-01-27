@@ -31,7 +31,7 @@ const SculptrVRProject = () => {
           {
             heading: 'The Context',
             paragraph:
-              'SculptrVR was rebranded to be more approachable and exciting to the next generation of virtual reality gamers. The wesbite needed to make it exciting to create sculptures with your friends in VR, get people to join the SculptrVR community and learn more about how to play the game in the documentation.',
+              'SculptrVR wants to be approachable and exciting for the next generation of virtual reality gamers. The website is the gateway for new players to purchase the game and for existing gamers to learn more about playing the game within the documentation.',
           },
         ]}
       />

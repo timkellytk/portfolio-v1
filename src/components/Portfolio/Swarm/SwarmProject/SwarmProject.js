@@ -41,7 +41,7 @@ const EvolutionaryTutorsProject = () => {
           {
             heading: 'The Context',
             paragraph:
-              'Swarm is an intense VR game built to capture the excitement of the next generation of gamers. The game is set to be released in 2021 and the website is an important platform to create hyper for players and press.',
+              'Swarm is an intense VR game built to capture the excitement of the next generation of gamers. The website is an important platform for players to learn more, giving them the confidence to buy the game.',
           }
         ]}
       />
