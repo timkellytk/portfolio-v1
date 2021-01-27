@@ -23,11 +23,11 @@ const SculptrVR = () => {
       {SEO}
       <PortfolioProject
         name="Evolutionary Tutors"
-        url="https://www.evolutionarytutors.com.au/"
+        url="https://www.sculptrvr.com/"
         projectTitle="Website Build"
         projectDescription="A bespoke website to get players excited to download and play a 3d virtual reality sculpting game."
-        gradient1="#d3d3f9"
-        gradient2="#c8f4fc"
+        gradient1="#d1ecff"
+        gradient2="#98caec"
         images={[home, love, play, different, video]}
         content={[
           {
