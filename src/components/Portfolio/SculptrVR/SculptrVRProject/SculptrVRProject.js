@@ -8,10 +8,10 @@ import love from '../../../../assets/images/projects/sculptrvr/screenshots/loves
 import play from '../../../../assets/images/projects/sculptrvr/screenshots/play-sculptrvr.png';
 import video from '../../../../assets/images/projects/sculptrvr/screenshots/video-sculptrvr.png';
 
-const SculptrVR = () => {
+const SculptrVRProject = () => {
   let SEO = (
     <HelmetHOC
-      title="SculptrVR Case Study | timkelly.dev"
+      title="SculptrVR website build | timkelly.dev"
       image={ogSculptrVR}
     />
   );
@@ -20,18 +20,18 @@ const SculptrVR = () => {
     <React.Fragment>
       {SEO}
       <PortfolioProject
-        name="Evolutionary Tutors"
-        url="https://www.evolutionarytutors.com.au/"
+        name="SculptrVR"
+        url="https://www.sculptrvr.com/"
         projectTitle="Website Build"
         projectDescription="A bespoke website to get players excited to download and play a 3d virtual reality sculpting game."
-        gradient1="#d3d3f9"
-        gradient2="#c8f4fc"
+        gradient1="#d1ecff"
+        gradient2="#98caec"
         images={[home, love, play, different, video]}
         content={[
           {
             heading: 'The Context',
             paragraph:
-              'SculptrVR was rebranded to be more approachable and exciting to the next generation of virtual reality gamers. The wesbite needed to make it exciting to create sculptures with your friends in VR, get people to join the SculptrVR community and learn more about how to play the game in the documentation.',
+              'SculptrVR wants to be approachable and exciting for the next generation of virtual reality gamers. The website is the gateway for new players to purchase the game and for existing gamers to learn more about playing the game within the documentation.',
           },
         ]}
       />
@@ -39,4 +39,4 @@ const SculptrVR = () => {
   );
 };
 
-export default SculptrVR;
+export default SculptrVRProject;
