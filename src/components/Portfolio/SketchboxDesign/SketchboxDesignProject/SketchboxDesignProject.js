@@ -29,14 +29,7 @@ const SketchboxDesignProject = () => {
         projectDescription="Sketchbox Design is a marketing website for a VR design and collaboration tool."
         gradient1="#d1d0e8"
         gradient2="#ab9ad3"
-        images={[
-          home,
-          how,
-          benefits,
-          showcase,
-          testimonials,
-          integrations,
-        ]}
+        images={[home, how, benefits, showcase, testimonials, integrations]}
         content={[
           {
             heading: 'The Context',

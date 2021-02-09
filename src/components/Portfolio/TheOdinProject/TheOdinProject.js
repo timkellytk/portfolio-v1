@@ -18,6 +18,7 @@ import apple2014 from '../../../assets/images/projects/the-odin-project/apple-20
 import nyt from '../../../assets/images/projects/the-odin-project/new-york-times-clone.png';
 import youtube from '../../../assets/images/projects/the-odin-project/youtube-clone.png';
 import battleship from '../../../assets/images/projects/the-odin-project/battleship.png';
+import waldo from '../../../assets/images/projects/the-odin-project/waldo.png';
 import style from './TheOdinProject.module.css';
 
 const TheOdinProject = () => {
@@ -45,6 +46,11 @@ const TheOdinProject = () => {
             image={battleship}
             link="https://github.com/timkellytk/project-battleship"
             alt="battleship game"
+          />
+          <ProjectItem
+            image={waldo}
+            link="https://github.com/timkellytk/project-wheres-waldo"
+            alt="Waldo game"
           />
           <ProjectItem
             image={weatherApp}
