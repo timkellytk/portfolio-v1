@@ -40,7 +40,7 @@ const AboutComponent = () => {
             <a href="/portfolio/the-rambler-co">The Rambler Co</a>,{" "}
             <a href="/portfolio/swarm">Swarm</a>,{" "}
             <a href="/portfolio/sculptrvr">SculptrVR</a> and{" "}
-            <a href="http://localhost:3000/portfolio/greensky-games">
+            <a href="/portfolio/greensky-games">
               Greensky Games
             </a>
             .
