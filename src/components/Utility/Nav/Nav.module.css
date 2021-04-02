@@ -40,6 +40,7 @@
     display: none;
   }
   .Logo {
-    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }

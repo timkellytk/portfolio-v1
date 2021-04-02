@@ -6,7 +6,7 @@ import style from './HamburgerMenu.module.css';
 const HamburgerMenu = (props) => {
   return (
     <div className={style.Menu} onClick={props.clicked}>
-      <img src={hamburger} alt="menu" height="20px" />
+      <img src={hamburger} alt="menu" height="25px" />
     </div>
   );
 };
