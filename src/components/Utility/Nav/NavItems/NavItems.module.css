@@ -4,9 +4,15 @@
 
 .NavLink {
   color: white;
+  font-weight: 500;
   margin-left: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
+  transition: opacity 200ms;
+}
+
+.NavLink:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 767px) {

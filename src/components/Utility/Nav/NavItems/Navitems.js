@@ -7,13 +7,13 @@ const NavItems = (props) => {
   return (
     <div className={style.NavMenu}>
       <NavLink to="/about" onClick={props.clicked}>
-        <p className={style.NavLink}>ABOUT</p>
+        <p className={style.NavLink}>About</p>
       </NavLink>
       <NavLink to="/portfolio" onClick={props.clicked}>
-        <p className={style.NavLink}>PORTFOLIO</p>
+        <p className={style.NavLink}>Portfolio</p>
       </NavLink>
       <NavLink to="/contact" onClick={props.clicked}>
-        <p className={style.NavLink}>CONTACT</p>
+        <p className={style.NavLink}>Contact</p>
       </NavLink>
     </div>
   );

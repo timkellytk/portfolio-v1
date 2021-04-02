@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import NavItems from './NavItems/Navitems';
 import HamburgerMenu from './MobileNav/HamburgerMenu/HamburgerMenu';
+import logo from '../../../assets/images/utility/tk-logo.png';
 import style from './Nav.module.css';
 
 const Nav = (props) => {
@@ -10,7 +11,8 @@ const Nav = (props) => {
     <React.Fragment>
       <header className={style.Nav}>
         <Link to="/">
-          <p className={style.Logo}>TIM KELLY</p>
+          <div></div>
+          <img src={logo} alt="Tim Kelly logo" className={style.Logo} />
         </Link>
         <nav className={style.DesktopOnly}>
           <NavItems />

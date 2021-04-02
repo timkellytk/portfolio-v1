@@ -24,8 +24,9 @@
 
 .Logo {
   color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 767px) {
@@ -35,10 +36,10 @@
   .NavMargin {
     margin: 30vmin 0 0 0;
   }
-  .Logo {
-    color: white;
-  }
   .DesktopOnly {
     display: none;
+  }
+  .Logo {
+    height: 20px;
   }
 }
