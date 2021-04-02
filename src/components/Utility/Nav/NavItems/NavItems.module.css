@@ -11,10 +11,6 @@
   transition: opacity 200ms;
 }
 
-.NavLink:hover {
-  opacity: 80%;
-}
-
 @media screen and (max-width: 767px) {
   .NavMenu {
     display: flex;
