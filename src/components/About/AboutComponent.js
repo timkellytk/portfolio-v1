@@ -1,10 +1,9 @@
-import React from 'react';
-import BodyContent from '../Utility/BodyContent/BodyContent';
-import ContentContainer from '../Utility/ContentContainer/ContentContainer';
-import Animate from '../Utility/Animate/Animate';
-import ContactItem from './ContactItem/ContactItem';
-import resume from '../../assets/pdfs/resume.pdf';
-import style from './About.module.css';
+import React from "react";
+import BodyContent from "../Utility/BodyContent/BodyContent";
+import ContentContainer from "../Utility/ContentContainer/ContentContainer";
+import Animate from "../Utility/Animate/Animate";
+import ContactItem from "./ContactItem/ContactItem";
+import style from "./About.module.css";
 
 const AboutComponent = () => {
   return (
@@ -18,7 +17,7 @@ const AboutComponent = () => {
         </Animate>
       </ContentContainer>
       <Animate delayContent>
-        <div className={[style.Photo, 'margin'].join(' ')} />
+        <div className={[style.Photo, "margin"].join(" ")} />
         <ContentContainer>
           <p>
             I'm a front-end web developer with a Bachelor of Marketing and Media
@@ -35,15 +34,15 @@ const AboutComponent = () => {
             In 2020, I studied full-time how to build modern web applications
             with JavaScript, React, Redux and Firebase. I developed websites for
             startups in education, travel, VR gaming and VR software. My
-            freelance clients include{' '}
-            <a href="/portfolio/sketchbox-design">Sketchbox</a>,{' '}
-            <a href="/portfolio/the-rambler-co">The Rambler Co</a>,{' '}
-            <a href="/portfolio/swarm">Swarm</a>,{' '}
-            <a href="/portfolio/sculptrvr">SculptrVR</a> and{' '}
+            freelance clients include{" "}
+            <a href="/portfolio/sketchbox-design">Sketchbox</a>,{" "}
+            <a href="/portfolio/the-rambler-co">The Rambler Co</a>,{" "}
+            <a href="/portfolio/swarm">Swarm</a>,{" "}
+            <a href="/portfolio/sculptrvr">SculptrVR</a> and{" "}
             <a href="/portfolio/greensky-games">Greensky Games</a>.
           </p>
           <p>
-            In my previous role as a Developer Intern at{' '}
+            In my previous role as a Developer Intern at{" "}
             <a href="https://www.southerncrossaustereo.com.au/">
               Southern Cross Austereo
             </a>
@@ -52,14 +51,9 @@ const AboutComponent = () => {
             GraphQL.
           </p>
           <p>
-            Now I'm a UI developer at{' '}
+            Now I'm a UI developer at{" "}
             <a href="https://www.4mation.com.au/">4mation Technologies</a>, a
             custom web and software development company based in Surry Hills.
-          </p>
-          <p>
-            <a className={style.Resume} href={resume}>
-              View resume
-            </a>
           </p>
           <div className={style.ContactList}>
             <ContactItem link="mailto:timpkelly1@gmail.com">
